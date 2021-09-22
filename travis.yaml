@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 14
+
+services:
+  - docker
+
+script:
+  - docker build -t simple-node .
+  - docker tag simple-node alkaj/simple-node
+
+after_success:
+  - echo "$PASSWORD" | docker login -u "$USERNAME" --password-stdin
+  - docker push alkaj/simple-node
