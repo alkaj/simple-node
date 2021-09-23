@@ -1,6 +1,6 @@
 # Simple Node
 
-#### Status: [![Build Status](https://app.travis-ci.com/alkaj/simple-node.svg?branch=master)](https://app.travis-ci.com/alkaj/simple-node)
+[![Build Status](https://app.travis-ci.com/alkaj/simple-node.svg?branch=master)](https://app.travis-ci.com/alkaj/simple-node)
 
 ## Overview
 
