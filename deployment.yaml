@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+  labels:
+    app: simple-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: simple-deployment
+  template:
+    metadata:
+      labels:
+        appp: simple-deployment
+    spec:
+      containers:
+        - name: simple-deployment
+          image: alkaj/simple-deployment
+          ports:
+            - containerPort: 80
