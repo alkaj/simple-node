@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        appp: simple-deployment
+        app: simple-deployment
     spec:
       containers:
         - name: simple-deployment
