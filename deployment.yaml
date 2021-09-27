@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simple-deployment
-          image: alkaj/simple-deployment
+          image: alkaj/simple-node
           ports:
             - containerPort: 80
